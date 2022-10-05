@@ -1,0 +1,21 @@
+div.contenedor{
+    border-style: solid;
+    border-radius: 3%;
+    border-color: aquamarine;
+    padding: 1%;
+}
+
+label.subrayado{
+    background-color: aqua;
+}
+
+label.color{
+    color: red;
+}
+
+input.boton{
+    color: tan;
+    background-color: sienna;
+    /*border-style: outset;
+    border-color: black;*/
+}
