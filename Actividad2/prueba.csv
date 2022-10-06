@@ -1,0 +1,5 @@
+nombre;text;-
+apellido;text;-
+sexo;radio;hombre,mujer
+hobbies;checkbox;deporte,musica,cine,lectura
+estudios;textarea;-
