@@ -8,5 +8,5 @@ $arrayTextos = array("a","q","h","j","p");
 
 //buscar_clave_array($arrayNombres,"45875896H");
 //buscar_valor_array($arrayNombres,"Samuel");
-buscar_texto_fichero("abecedario.txt",$arrayTextos);
+print_r(buscar_texto_fichero("abecedario.txt",$arrayTextos));
 ?>

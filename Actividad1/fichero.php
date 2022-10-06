@@ -28,14 +28,16 @@ function buscar_texto_fichero($nombreFichero,$arrayTextos){
     fclose($manejador);
 
     $letras = explode(",",$linea);
+    $arrayRes = array();
 
     for($i = 0, $size = count($letras); $i < $size; ++$i){
         for ($j=0, $size2 = count($arrayTextos); $j < $size2; ++$j) { 
             if($letras[$i] == $arrayTextos[$j]){
-                echo "La letra ".$letras[$i]." esta en ambos arrays <br>";
+                $arrayRes[$letras[$i]]+=1;
             }
         }
     }
+    return $arrayRes;
 }
 
 ?>
