@@ -1,3 +1,4 @@
+<?php
 $Tenerife = array(
     "Maday" => array(
         "Posicion" => "Delantero",
@@ -30,3 +31,4 @@ $Tenerife = array(
         "Peso" => "96" 
     ),
 );
+?>

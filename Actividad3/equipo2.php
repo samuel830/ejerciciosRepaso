@@ -1,4 +1,5 @@
-$Las Palmas = array(
+<?php
+$LasPalmas = array(
     "Jonathan Viera" => array(
         "Posicion" => "Delantero",
         "Dorsal" => "8",
@@ -30,3 +31,4 @@ $Las Palmas = array(
         "Peso" => "96" 
     ),
 );
+?>
